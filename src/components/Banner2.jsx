@@ -28,7 +28,7 @@ return <>
     
       <div 
         ref={scrollRef}
-        className="flex overflow-auto overflow-y-hidden gap-[2px] scroll-smooth  [scrollbar-width:none] pl-[2vw] pr-[2vw]"
+        className="flex overflow-auto overflow-y-hidden gap-[2px] scroll-smooth [scrollbar-width:none] pl-[2vw] pr-[2vw] pb-[10px]" 
       >
         
         {cards.c1}
@@ -48,10 +48,10 @@ return <>
         <div className="flex justify-center gap-[10px] pt-4">
         
           <button onClick={scrollLeft}>
-            Left
+            <div className="font-normal shadow-md shadow-gray-500 text-[2rem] pt-[4px] pb-[4px] pl-[17px] pr-[17px] hover:shadow-md hover:shadow-black">{"<"}</div>
           </button>
           <button onClick={scrollRight}>
-            Right
+            <div className="font-normal shadow-md shadow-gray-500 text-[2rem] pt-[4px] pb-[4px] pl-[17px] pr-[17px] hover:shadow-md hover:shadow-black">{">"}</div>
           </button>
         </div>
     </div>

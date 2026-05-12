@@ -18,6 +18,21 @@ import Slimeposter1 from './assets/slimeposter1.jpg'
 import Jjkposter1 from './assets/jjkposter1.jpg'
 import Windbrk1 from './assets/windbrk1.jpg'
 import Kaizuposter1 from './assets/kaizuposter1.jpg'
+import Baj1 from './assets/baj1.webp'
+import Baj2 from './assets/dnbaj1.webp'
+import Baj3 from './assets/dollbaj.jpg'
+import Baj4 from './assets/gojobaj.jpg'
+import Baj5 from './assets/onepiecebaj1.jpg'
+import Baj6 from './assets/demonbaj.webp'
+import Baj7 from './assets/tokyorevengerbaj1.webp'
+import Baj8 from './assets/wrathbaj1.jpg'
+import Baj9 from './assets/demonbaj2.webp'
+import Baj10 from './assets/demonbaj3.webp'
+import Baj11 from './assets/demonbaj4.webp'
+import Baj12 from './assets/jjkbaj1.webp'
+import Tshirt1 from './assets/jjktshirt1.jpg'
+import Tshirt2 from './assets/onepiecetshirt.jpg'
+import Tshirt3 from './assets/cattshirt.jpg'
 function App() {
 return <>
 <div className='bg-green-100'>
@@ -41,36 +56,39 @@ return <>
    <div>
       <div className='pt-14 pb-18 flex justify-center wrap-normal text-[45px] font-semibold' >
     ANIME BADGES
-      </div>
-      <Banner2 cards = {{
-                           c1: <Lcard/>,
-                           c2: <Lcard/>,
-                           c3: <Lcard/>,
-                           c4: <Lcard/>,
-                           c5: <Lcard/>,
-                           c6: <Lcard/>,
-                           c7: <Lcard/>,
-                           c8: <Lcard/>,
-                           c9: <Lcard/>,
-                           c10: <Lcard/>,
-                           c11: <Lcard/>,
-                           c12: <Lcard/>
-      }} />
+      </div >
+         <div>
+            <Banner2 cards = {{
+                              c1: <Lcard img={Baj1} title={"Straw Hat Captain Badge - One Piece"}/>,
+                              c2: <Lcard img={Baj2} title={"Ryuk Death Note Badge - Death Note"}/>,
+                              c3: <Lcard img={Baj3} title={"Anime Doll Collector Badge - Kawaii Edition"}/>,
+                              c4: <Lcard img={Baj4} title={"Gojo Satoru I'll Murder You Badge - Jujutsu Kaisen"}/>,
+                              c5: <Lcard img={Baj5} title={"Straw Hat Pirates Wanted Badge - One Piece"}/>,
+                              c6: <Lcard img={Baj6} title={"Flame Hashira Power Badge - Demon Slayer"}/>,
+                              c7: <Lcard img={Baj7} title={"Tokyo Manji Gang Badge - Tokyo Revengers"}/>,
+                              c8: <Lcard img={Baj8} title={"Wrath Symbol Anime Badge - Fullmetal Edition"}/>,
+                              c9: <Lcard img={Baj9} title={"Tanjiro Water Breathing Badge - Demon Slayer"}/>,
+                              c10: <Lcard img={Baj10} title={"Upper Moon Demon Badge - Demon Slayer"}/>,
+                              c11: <Lcard img={Baj11} title={"Hashira Elite Corps Badge - Demon Slayer"}/>,
+                              c12: <Lcard img={Baj12} title={"Cursed Energy Symbol Badge - Jujutsu Kaisen"}/>
+            }} />
+   
+         </div>
    </div>
    <div>
       <div className='pt-4 pb-10 flex justify-center wrap-normal text-[45px] font-semibold' >
          OUR T-SHIRT LINEUPS
       </div> 
       <div className='flex justify-center gap-1'>
-         <Xlcard/>
-         <Xlcard/>
-         <Xlcard/>
+         <Xlcard img={Tshirt1}/>
+         <Xlcard img={Tshirt2}/>
+         <Xlcard img={Tshirt3}/>
       </div>
    </div>
 
    <div>
-      <div className='pt-4   wrap-normal text-[45px] font-semibold' >
-         <div className='text-center pb-10'>OUR T-SHIRT LINEUPS</div>
+      <div className='pt-10   wrap-normal text-[45px] font-semibold' >
+         <div className='text-center pb-10'>JOIN OUR INSTAGRAM FAMILY</div>
          <div className='font-thin text-[18px] text-center' >Follow us on Instagram to get featured and know more update new product launches</div>
       </div>
       

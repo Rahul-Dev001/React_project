@@ -55,10 +55,10 @@ return <>
         <div className="flex justify-center gap-[10px] pt-4">
         
           <button onClick={scrollLeft}>
-            Left
+            <div className="font-normal shadow-md shadow-gray-500 text-[2rem] pt-[3px] pb-[5px] pl-[17px] pr-[17px] hover:shadow-md hover:shadow-black">{"<"}</div>
           </button>
           <button onClick={scrollRight}>
-            Right
+            <div className="font-normal shadow-md shadow-gray-500 text-[2rem] pt-[3px] pb-[5px] pl-[17px] pr-[17px] hover:shadow-md hover:shadow-black">{">"}</div>
           </button>
         </div>
     </div>
