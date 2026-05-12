@@ -9,8 +9,8 @@ return <>
 
         <div className="w-[31%] flex-col" >
             <div>img</div>
-            <div className="pt-2 text-[22px] font-bold" >WEEBSHOP - India's Leading Anime Merchandise Store</div>
-            <div className="pt-8  pr-8 text-18 "> Weebshop originated with the desire to make anime merchandise accessible to fellow weebs and otakus.</div>
+            <div className="pt-2 text-[22px] font-bold" >OTA-STATION - India's Leading Anime Merchandise Store</div>
+            <div className="pt-8  pr-8 text-18 "> Otastation originated with the desire to make anime merchandise accessible to fellow friends and otakus.</div>
             <div className="flex">
                 <div></div>
                 <div></div>

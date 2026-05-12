@@ -111,7 +111,7 @@ return <>
    </div>
 
    <div>
-         <div className='text-center pl-60 pr-60' >All artworks posted on this website is intended as fan art and are submitted by independent artist from around the world and is not purported to be official merchandise unless indicated otherwise. If you have any issues regarding the artwork do write in to us at support@weebshop.in.</div>  
+         <div className='text-center pl-60 pr-60' >All artworks posted on this website is intended as fan art and are submitted by independent artist from around the world and is not purported to be official merchandise unless indicated otherwise. If you have any issues regarding the artwork do write in to us at support@otastation.in.</div>  
    </div> 
 
    <div>
